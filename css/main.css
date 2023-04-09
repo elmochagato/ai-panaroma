@@ -17,6 +17,7 @@
   width: 50%;
 }
 
+
 #container::before {
   position: absolute;
   content: "";
@@ -32,3 +33,51 @@
   z-index: 10;
   pointer-events: none;
 }/*# sourceMappingURL=main.css.map */
+
+
+.text  h2{
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 26%;
+  left: 25%;
+  color: rgb(255, 255, 255);
+  font-size: 8rem;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.text  h3{
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 38%;
+  left: 35%;
+  color: rgb(255, 255, 255);
+  font-size: 8rem;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+@media screen and (max-width: 992px) {
+  .text h2 {
+    left: 2%;
+    font-size: 7.25rem;
+    top: 35%;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  .text h3 {
+    left: 25%;
+    font-size: 6.75rem;
+    top: 42%;
+  }
+}
